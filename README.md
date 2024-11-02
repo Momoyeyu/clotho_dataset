@@ -1,6 +1,6 @@
-## use clotho dataset with pytorch
+## intro
 
-This reporsitory supports the use of Python's `Dataloader` with Clotho dataset.
+This reporsitory supports the use of pytorch's `Dataloader` with Ccotho dataset.
 
 ## download dataset.
 

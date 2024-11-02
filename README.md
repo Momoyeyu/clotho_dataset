@@ -1,12 +1,12 @@
-## intro
+## Intro
 
-This reporsitory supports the use of pytorch's `Dataloader` with Ccotho dataset.
+This reporsitory supports the use of pytorch's `Dataloader` with clotho dataset.
 
-## download dataset.
+## Download dataset.
 
  You should download the dataset in [here](https://zenodo.org/record/3490684)
 
-## preprocessing
+## Preprocessing
 
 We write a demo, and you can customize `preprocess.py` to get your own features.
 
@@ -14,11 +14,11 @@ We write a demo, and you can customize `preprocess.py` to get your own features.
 python preprocess.py
 ```
 
-## hyperparamters
+## Hyperparamters
 
 You can setup hyperparameters in `config/config.yaml` and use them in code by `import hparam as hp`.
 
-## testing dataloader
+## Testing dataloader
 
 You can test the dataloader by running `main.py`
 

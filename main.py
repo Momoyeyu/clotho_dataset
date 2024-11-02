@@ -48,4 +48,3 @@ for audios_padded, captions in development_loader:
     plt.ylabel('Amplitude')
     plt.show()
     break
-

@@ -1,22 +1,28 @@
 ## Intro
 
-This reporsitory supports the use of pytorch's `Dataloader` with clotho dataset.
+This repository supports the use of pytorch's `Dataloader` with clotho dataset.
 
 ## Download dataset.
 
- You should download the dataset in [here](https://zenodo.org/record/3490684)
+You can download the dataset in [here](https://zenodo.org/record/3490684).
+Scroll down to find `clotho_audio_development.7z` and `clotho_audio_evaluation.7z` and download them.
+After downloading the above 7z files, unzip them into the `data/` directory.
+You can also put them wherever you like, but you should update the `config.yaml` in `config/` directory.
 
 ## Preprocessing
 
-We write a demo, and you can customize `preprocess.py` to get your own features.
+We write a demo to preprocess the `wav` data into numpy vectors.
+You can test the demo by running the following instruction.
 
-```shell
+```shell    
 python preprocess.py
 ```
 
-## Hyperparamters
+You can customize `preprocess.py` to get your own features.
 
-You can setup hyperparameters in `config/config.yaml` and use them in code by `import hparam as hp`.
+## Hyperparameters
+
+You can set up hyperparameters in `config/config.yaml` and use them in code by `import hparam as hp`.
 
 ## Testing dataloader
 

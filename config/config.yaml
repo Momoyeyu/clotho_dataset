@@ -1,0 +1,23 @@
+training: !!bool "true"
+device: "cuda"
+visible: "0"
+---
+preprocess:
+    dev_path: './data/development'
+    eval_path: './data/evaluation'
+    dev_cfg: './data/clotho_captions_development.csv'
+    eval_cfg: './data/clotho_captions_evaluation.csv'
+    dev_out: './data/train_tisv'
+    eval_out: './data/test_tisv'
+---
+data:
+    train_path: './train_tisv_poison'
+    test_path: './test_tisv'
+    max_length: 441000
+    sr: 44100
+    nfft: 512 #For mel spectrogram preprocess
+    window: 0.025 #(s)
+    hop: 0.01 #(s)
+    nmels: 40 #Number of mel energies
+    tisv_frame: 180 #Max number of time steps in input after preprocess
+

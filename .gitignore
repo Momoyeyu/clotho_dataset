@@ -1,0 +1,8 @@
+data/development
+data/evaluation
+data/train_tisv
+data/test_tisv
+
+.idea
+__pycache__
+

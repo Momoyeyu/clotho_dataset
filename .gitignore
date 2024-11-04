@@ -6,3 +6,5 @@ data/test_tisv
 .idea
 __pycache__
 
+/data/clotho_audio_development.7z
+/data/clotho_audio_evaluation.7z
